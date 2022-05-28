@@ -1,0 +1,69 @@
+:export {
+  orange: #F9CC82;
+  pink: #E2B4BA;
+  purple: #C6B5D7;
+}
+
+@font-face {
+  font-family: "NEXON Lv1 Gothic OTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "NEXON Lv1 Gothic OTF";
+}
+
+.signup-box {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.signup-box .signup-leftside {
+  background-color: #F9CC82;
+  width: 50%;
+  height: 100vh;
+}
+.signup-box .signup-leftside img {
+  padding: 250px 0;
+  width: 200px;
+  height: 200px;
+}
+.signup-box form {
+  width: 30%;
+  margin: auto;
+}
+.signup-box form h1 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.signup-box form input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid #F9CC82;
+  margin-bottom: 20px;
+}
+.signup-box form input::placeholder {
+  color: #989898;
+  font-size: 13px;
+}
+.signup-box form input:focus {
+  outline: none;
+  background-color: #f1f1f1;
+}
+.signup-box form button {
+  float: right;
+  width: 30%;
+  height: 40px;
+  border: none;
+  color: white;
+  background-color: #F9CC82;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
