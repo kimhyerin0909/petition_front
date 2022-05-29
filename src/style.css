@@ -45,7 +45,6 @@
   width: 100%;
   height: 40px;
   border: none;
-  border-bottom: 2px solid #F9CC82;
   margin-bottom: 20px;
 }
 .signup-box form input::placeholder {
