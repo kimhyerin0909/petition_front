@@ -37,6 +37,7 @@ $mint : #A7D0D7;
         }
     }
     form {
+        display: block;
         width: 30%;
         margin: auto;
         h1 {
@@ -61,13 +62,20 @@ $mint : #A7D0D7;
             }
         }
         button {
+            display: block;
             float: right;
-            width: 30%;
-            height: 40px;
             border: none;
             color: white;
             background-color: $orange;
+            padding: 15px 40px;
             border-radius: 10px;
+        }
+        .btn-box {
+            height: 60px;
+        }
+        .login-link {
+            text-decoration: none;
+            color: rgb(150, 185, 255);
         }
     }
 }
