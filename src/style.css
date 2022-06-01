@@ -18,10 +18,12 @@
 
 .signup-box {
   display: flex;
+  justify-content: center;
   text-align: center;
   align-items: center;
 }
 .signup-box .signup-leftside {
+  transition: ease 1s;
   background-color: #F9CC82;
   width: 50%;
   height: 100vh;
@@ -42,6 +44,7 @@
   font-weight: bold;
 }
 .signup-box form input {
+  transition: ease 1s;
   display: block;
   width: 100%;
   height: 40px;
@@ -54,10 +57,12 @@
   font-size: 13px;
 }
 .signup-box form input:focus {
+  transition: none;
   outline: none;
   background-color: #f1f1f1;
 }
 .signup-box form button {
+  transition: ease 1s;
   display: block;
   float: right;
   border: none;
@@ -72,6 +77,21 @@
 .signup-box form .login-link {
   text-decoration: none;
   color: rgb(150, 185, 255);
+}
+.signup-box .full-window {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.431372549);
+}
+.signup-box .school-select-window {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 /*# sourceMappingURL=style.css.map */
