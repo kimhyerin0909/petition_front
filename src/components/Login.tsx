@@ -1,7 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom';
-import styled from 'styled-components';
-
 export default function Login() {
     // 네 가지 색 : #F9CC82 -> #E2B4BA -> #C6B5D7 -> #A7D0D7
     const [color, setColor ]= useState("#F9CC82");
