@@ -77,6 +77,7 @@
 .signup-box form .login-link {
   text-decoration: none;
   color: rgb(150, 185, 255);
+  font-size: 15px;
 }
 .signup-box .full-window {
   position: absolute;
